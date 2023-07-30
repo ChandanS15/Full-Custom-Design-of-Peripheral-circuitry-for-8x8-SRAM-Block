@@ -1,1 +1,1 @@
-# Full-Custom-design-of-8x8-SRAM-Block
+# Full Custom design of Peripheral circuitry for 8x8 SRAM Block
