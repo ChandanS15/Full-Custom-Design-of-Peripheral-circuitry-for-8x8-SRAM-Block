@@ -53,10 +53,10 @@ The Block diagram of the implemented block is attached below
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/020d2559-3457-4aba-bc80-54383e988d38)
 
-![Screenshot 2023-08-13 170150](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/a6cc3d7e-ee5e-4303-8e69-347dfceeb0ac)
-
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/67d1beaf-7601-4bc8-815b-e12093323c20)
+
+![Screenshot 2023-08-13 170150](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/a6cc3d7e-ee5e-4303-8e69-347dfceeb0ac)
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/0cb3b508-0675-45cc-9ac9-00704d3aa63e)
 
