@@ -2,7 +2,7 @@
 
 You can find the first half of this repo already comitted here. https://github.com/ChandanS15/Comparative-Analysis-of-Decoders-using-Static-Dynamic-CMOS-Logic.git
 
-I have also icluded a detailed report on how each circuit wprks and why they were eventually chosen to implement the final block.
+I have also icluded a detailed report on how each circuit works and why they were eventually chosen to implement the final block.
 
 
 
