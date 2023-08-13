@@ -96,7 +96,9 @@ I have also icluded a detailed report on how each circuit wprks and why they wer
 
 
 
+
 ![Untitled](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/76786164-970f-46f8-99ec-394468c61f89)
+
 
 
 
