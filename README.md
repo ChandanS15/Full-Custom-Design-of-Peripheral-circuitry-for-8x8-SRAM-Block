@@ -71,9 +71,12 @@ I have also icluded a detailed report on how each circuit wprks and why they wer
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/f236cec7-1be6-4319-b1e8-30bff21887d9)
 
+![Untitled](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/76786164-970f-46f8-99ec-394468c61f89)
 
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/864a2120-efe3-4ee4-8581-7b1e62842e04)
+
+
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/809d33e2-aa9f-4f3f-b06f-9807c5557a4f)
 
