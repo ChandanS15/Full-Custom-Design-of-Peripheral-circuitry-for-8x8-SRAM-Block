@@ -4,7 +4,8 @@ You can find the first half of this repo already comitted here. https://github.c
 
 I have also icluded a detailed report on how each circuit works and why they were eventually chosen to implement the final block.
 
-> ```SKILL
+> 
+```SKILL
 
 ;;;########################################################
 ;;;#	Author	: Chandan Srinivas	
@@ -54,12 +55,9 @@ dbClose(cvi)
 	dbClose(cv)
 
 )
-
-
-
-
-
 ```
+
+
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/501893c7-f021-4c89-9767-9a0f4a581227)
 
