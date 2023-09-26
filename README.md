@@ -4,7 +4,62 @@ You can find the first half of this repo already comitted here. https://github.c
 
 I have also icluded a detailed report on how each circuit works and why they were eventually chosen to implement the final block.
 
+> ```SKILL
 
+;;;########################################################
+;;;#	Author	: Chandan Srinivas	
+;;;#	Date	: 24-06-2023
+;;;#          load "create_arr.il"
+;;;#          create_arr("libname" "cellname" 128 128) 
+;;;#
+;;;#########################################################
+
+procedure(create_arr(lib cellview M N)
+	;prog(bBox,ur,ll,urx,ury,llx,lly,dx,dy,cv,cvi)
+	; Open cellview to write
+	cv = dbOpenCellViewByType(lib "Array_Output" "layout" "maskLayout" "w")
+	printf("\n%s opened" cellview)
+
+	;open the layout of SRAM to be used
+	cvi = dbOpenCellViewByType(lib cellview "layout")
+
+
+
+; use bbox to get the dimensions 
+; prBoundary is now BOUNDARY in the 2018 ASAP 7nm PDK
+prb=cvi~>prBoundary~>bBox
+        
+ur=upperRight(prb)
+ll=lowerLeft(prb)
+urx=xCoord(ur)
+ury=yCoord(ur)
+llx=xCoord(ll)
+lly=yCoord(ll)
+
+;dx is the width of the cell and dy is the height of the cell
+dx=urx-llx;
+dy=ury-lly;
+
+;creating the MxN array with alternate rows reversed to share common vdd and ground
+for(row 0 M
+for(column 0 N
+ 
+  dbCreateInst( cv cvi "" list(column*dx row*dy) "R0")
+
+
+)
+)
+dbClose(cvi)
+	dbSave(cv)
+	dbClose(cv)
+
+)
+
+
+
+
+
+```
 
 ![image](https://github.com/ChandanS15/Full-Custom-Design-of-Peripheral-circuitry-for-8x8-SRAM-Block/assets/82103081/501893c7-f021-4c89-9767-9a0f4a581227)
 
